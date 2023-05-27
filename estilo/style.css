@@ -46,6 +46,7 @@ a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    font-size: 0.8em;
 }
 
 
@@ -78,15 +79,15 @@ section.normal {
 
 section.imagem {
     background-color: rgb(247, 222, 222);
-    color: white;
+    color: rgb(0, 0, 0);
     box-shadow: inset 6px 6px 13px 0px rgba( 0, 0, 0, 0.473);
     background-attachment: fixed;
 }
 
 section.imagem > h2 {
     font-size: 1.5em;
-    color: black;
     width: 50%;
+    padding-bottom: 0.5em;
 }
 
 section.normal > h2 {
@@ -96,6 +97,7 @@ section.normal > h2 {
 
 section.imagem > p {
 width: 97%;
+text-justify: auto;
 display: inline-block;
 padding: 5px;
 color: black;
